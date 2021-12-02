@@ -901,13 +901,13 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url('https://www.crushpixel.com/big-static15/preview4/checkered-flag-2135331.jpg');
+  background-image: url('https://thumbs.dreamstime.com/b/onda-astratta-nera-del-fumo-isolata-su-un-fondo-bianco-110324465.jpg');
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
   top: 60px;
   width: 1159px;
-  height: 797px;
+  height: 625px;
   z-index: -1;
 }
 
