@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-body {
+div.body {
   background-color: #474e5d;
   font-family: Helvetica, sans-serif;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 /* Container around content */
-.container {
+.container0 {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -40,7 +40,7 @@ body {
 }
 
 /* The circles on the timeline */
-.container::after {
+.container0::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -112,14 +112,14 @@ body {
   }
   
   /* Full-width containers */
-  .container {
+  .container0 {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+  .container0::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
@@ -139,45 +139,45 @@ body {
 </style>
 </head>
 <body>
-
-<div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+<div class="body">
+  <div class="timeline">
+    <div class="container0 left">
+      <div class="content">
+        <h2>2017</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div>
+    <div class="container0 right">
+      <div class="content">
+        <h2>2016</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div>
+    <div class="container0 left">
+      <div class="content">
+        <h2>2015</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div>
+    <div class="container0 right">
+      <div class="content">
+        <h2>2012</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div>
+    <div class="container0 left">
+      <div class="content">
+        <h2>2011</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
+    </div>
+    <div class="container0 right">
+      <div class="content">
+        <h2>2007</h2>
+        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      </div>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-</div>
-
+ </div>
 </body>
 </html>
