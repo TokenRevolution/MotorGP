@@ -287,13 +287,13 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
+  background-color: ##a9a9a9!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+  box-shadow: 15px 15px 15px 15px;
 }
 
 .background-header .logo,
