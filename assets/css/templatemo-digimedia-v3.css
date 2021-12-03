@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #7fff00;
+  background-color: #adff2f;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -143,7 +143,7 @@ global styles
 */
 html,
 body {
-  background: #7fff00;
+  background: #adff2f;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -235,7 +235,7 @@ header
 */
 
 .pre-header {
-  background-color: #000080;
+  background-color: #000000;
   height: 60px;
   padding: 15px 0px;
 }
