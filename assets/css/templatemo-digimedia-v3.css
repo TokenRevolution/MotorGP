@@ -1221,7 +1221,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.jpg);
+  background-color: #000000;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1233,7 +1233,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../images/services-right-dec.jpg);
+  background-black: #000000;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
