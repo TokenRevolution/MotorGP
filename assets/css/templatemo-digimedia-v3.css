@@ -128,7 +128,12 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #000000;
+  background-color: #666666;
+  border-radius: 30px;
+  box-shadows: 15px 15px 15px;
+  padding: 5px;
+  margin: 5px;
 }
 
 img {
@@ -1084,10 +1089,10 @@ About Style
 /* This for loop creates the  necessary css animation names 
 Due to the split circle of progress-left and progress right, we must use the animations on each side. 
 */
-.progress[data-percentage="10"] .progress-right .progress-bar {
+.progress[data-percentage="15"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
-.progress[data-percentage="10"] .progress-left .progress-bar {
+.progress[data-percentage="15"] .progress-left .progress-bar {
   animation: 0;
 }
 
@@ -1098,10 +1103,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
   animation: 0;
 }
 
-.progress[data-percentage="30"] .progress-right .progress-bar {
+.progress[data-percentage="25"] .progress-right .progress-bar {
   animation: loading-3 1.5s linear forwards;
 }
-.progress[data-percentage="30"] .progress-left .progress-bar {
+.progress[data-percentage="25"] .progress-left .progress-bar {
   animation: 0;
 }
 
