@@ -1021,19 +1021,19 @@ About Style
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #fd6a54;
+  border-color: #000000;
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #4da6e7;
+  border-color: #000000;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #726ae3;
+  border-color: #000000;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #f58b56;
+  border-color: #000000;
 }
 
 .progress .progress-left .progress-bar {
