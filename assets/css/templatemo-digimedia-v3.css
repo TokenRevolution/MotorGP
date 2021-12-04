@@ -1233,7 +1233,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-black: #000000;
+  background-color: #000000;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
