@@ -1037,15 +1037,15 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #e9ff00;
+  border-color: #000000;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #726ae3;
+  border-color: #000000;
 }
 
 .third-skill-item .progress .progress-bar {
-  border-color: #f58b56;
+  border-color: #000000;
 }
 
 .progress .progress-left .progress-bar {
