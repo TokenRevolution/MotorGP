@@ -1346,7 +1346,7 @@ Services Style
 }
 
 .services .nacc .thumb h4 {
-  color: #FFFF00;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
@@ -1359,7 +1359,7 @@ Services Style
 }
 
 .services .nacc .thumb .main-white-button a {
-  background-color: #8d99af;
+  background-color: #FFFF00;
   color: #fff;
 }
 
