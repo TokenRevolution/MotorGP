@@ -1547,11 +1547,12 @@ Portfolio
 }
 
 .portfolio-item .down-content {
-  background-color: #fff;
+  background-color: #ff0000;
   text-align: center;
   padding: 18px 0px;
   border-bottom-right-radius: 23px;
   border-bottom-left-radius: 23px;
+  box-shadow: 5px 5px 5px;
 }
 
 .portfolio-item .down-content h4 {
