@@ -899,7 +899,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url('');
+  background-image: url('https://static.sky.it/images/skysport/it/motori/motogp/2021/09/19/motogp-gp-misano-tifosi-vip/tifosi-copertina-motorsportimages.jpg');
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -907,6 +907,8 @@ Banner Style
   width: 800px;
   height: 625px;
   z-index: 1;
+  opacity: 50%;
+  border-radius: 0px 30px 30px 0px;
 }
 
 .main-banner:before {
@@ -1414,6 +1416,7 @@ Free Quote
   position: relative;
   z-index: 2;
   margin-top: 130px;
+  opacity: 200%;
 }
 
 .free-quote .section-heading {
@@ -1486,7 +1489,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url("rodolfo");
+  background-image: url("https://static.fanpage.it/wp-content/uploads/sites/27/2021/04/Valentino-Rossi-Brad-Binder-rispetto-giovani-piloti-MotoGP-2021-GP-Qatar-contatto-1200x1200.jpg");
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1494,11 +1497,13 @@ Portfolio
   width: 414px;
   height: 861px;
   z-index: 1;
+  opacity: 70%;
+  border-radius: 30px 0px 30px 30px;
 }
 
 .our-portfolio:after {
   content: '';
-  background-image: url("rodolfo");
+  background-image: url("https://www.motorinews24.com/wp-content/uploads/2017/07/tifosi-valentino-rossi-tribuna-gialla-motogp-yamaha-2017-1200x900.jpg");
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1506,6 +1511,8 @@ Portfolio
   width: 677px;
   height: 759px;
   z-index: 1;
+  opacity: 70%;
+  border-radius: 0px 30px 30px 0px;
 }
 
 .our-portfolio .section-heading {
@@ -1588,9 +1595,9 @@ Portfolio
   text-align: center;
   line-height: 46px;
   font-size: 30px;
-  background-color: #eee;
+  background-color: #000000;
   border-radius: 50%;
-  color: #fff;
+  color: #e9ff00;
   transition: all 0.5s;
 }
 
