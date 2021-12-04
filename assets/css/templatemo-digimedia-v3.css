@@ -214,14 +214,14 @@ body {
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #e9ff00;
+  background-color: #000000;
 }
 
  .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
   color: #000000 !important;
-  border: 1px solid #e9ff00 !important;
+  border: 1px solid #000000 !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -230,8 +230,8 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #e9ff00;
-  color: #fff !important;
+  background-color: #000000;
+  color: #e9ff00 !important;
 }
 
 
