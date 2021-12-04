@@ -105,7 +105,7 @@ html, body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #9acd32;
+  background-color: #e9ff00;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -118,7 +118,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-color: #FF0000;
+  font-color: #e9ff00;
 }
 
 ul {
@@ -151,17 +151,17 @@ global styles
 */
 html,
 body {
-  background: #9acd32;
+  background: #e9ff00;
   font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
-  background: #ff0000;
+  background: #e9ff00;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #ff0000;
+  background: #e9ff00;
   color: #fff !important;
 }
 
@@ -193,7 +193,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #ff0000;
+  color: #e9ff00;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -208,20 +208,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #ff0000;
+  background-color: #e9ff00;
 }
 
  .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #ff0000 !important;
-  border: 1px solid #ff0000 !important;
+  color: #e9ff00 !important;
+  border: 1px solid #e9ff00 !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -230,7 +230,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #ff0000;
+  background-color: #e9ff00;
   color: #fff !important;
 }
 
@@ -263,7 +263,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 .pre-header ul.info li a i {
@@ -293,7 +293,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #ff0000;
+  background-color: #e9ff00;
 }
 
 .background-header {
@@ -312,7 +312,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 .background-header .nav li a.active {
@@ -324,7 +324,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #ff0000;
+  background-color: #e9ff00;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -431,12 +431,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff0000!important;
+  color: #e9ff00!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff0000!important;
+  color: #e9ff00!important;
   opacity: 1;
 }
 
@@ -498,7 +498,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ff0000!important;
+  color: #e9ff00!important;
   padding-left: 25px;
 }
 
@@ -638,7 +638,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 @media (max-width: 1200px) {
@@ -677,7 +677,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff0000!important;
+    color: #e9ff00!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -739,7 +739,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ff0000!important;
+    color: #e9ff00!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -853,7 +853,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #ff0000;
+    background: #e9ff00;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -876,7 +876,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #ff0000;
+    background: #e9ff00;
     border-radius: 50%;
 }
 
@@ -929,7 +929,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #ff0000;
+  color: #e9ff00;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1035,7 +1035,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #ff0000;
+  border-color: #e9ff00;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1380,7 +1380,7 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #ff0000 !important;
+  color: #e9ff00 !important;
 }
 
 .services .left-text p {
@@ -1466,7 +1466,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #ff0000;
+  background-color: #e9ff00;
   font-size: 15px;
   color: #fff;
 }
@@ -1537,7 +1537,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 .portfolio-item .thumb img {
@@ -1596,7 +1596,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #fff;
-  background-color: #ff0000;
+  background-color: #e9ff00;
 }
 
 
@@ -1660,7 +1660,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #ff0000;
+  background-color: #e9ff00;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1854,7 +1854,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #ff0000;
+  color: #e9ff00;
 }
 
 form#contact input {
@@ -1902,20 +1902,20 @@ form#contact button {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #ff0000;
+  color: #e9ff00;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #ff0000;
+  border: 1px solid #e9ff00;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #ff0000!important;
+  background-color: #e9ff00!important;
   color: #fff!important;
 }
 
