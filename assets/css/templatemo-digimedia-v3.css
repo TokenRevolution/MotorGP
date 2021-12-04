@@ -1230,27 +1230,30 @@ Services Style
 }
 
 .services:after {
-  content: '';
-  background-color: "armando";
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 786px;
-  height: 1217px;
-  z-index: 0;
+    content: '';
+    background-image: url(https://cdn.crash.net/styles/amp_1200/s3/original/38817.jpg?itok=U7DBY4W1);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 786px;
+    height: 1217px;
+    z-index: 0;
+    opacity: 70%;
+    border-radius: 0px 20px;
 }
 
 .services:before {
-  content: '';
-  background-color:  "armando";
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  top: 400px;
-  width: 161px;
-  height: 413px;
-  z-index: 0;
+    content: '';
+    background-image: url(https://cdn.crash.net/styles/amp_1200/s3/original/38817.jpg?itok=U7DBY4W1);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 400px;
+    width: 161px;
+    height: 413px;
+    z-index: 0;
+    border-radius: 0px 0px 20px;
 }
 
 .services .section-heading {
