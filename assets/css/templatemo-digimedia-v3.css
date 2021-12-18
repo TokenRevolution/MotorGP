@@ -899,7 +899,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url('https://static.sky.it/images/skysport/it/motori/motogp/2021/09/19/motogp-gp-misano-tifosi-vip/tifosi-copertina-motorsportimages.jpg');
+  background-image: url('https://motograndprix.motorionline.com/wp-content/uploads/2018/04/mugello-news-tribune-esaurite-2018-1280x720.jpg');
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1492,7 +1492,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url("https://static.fanpage.it/wp-content/uploads/sites/27/2021/04/Valentino-Rossi-Brad-Binder-rispetto-giovani-piloti-MotoGP-2021-GP-Qatar-contatto-1200x1200.jpg");
+  background-image: url("https://static.fanpage.it/wp-content/uploads/sites/27/2020/05/motogp-jerez-1588847567161.jpg");
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1506,7 +1506,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url("https://www.motorinews24.com/wp-content/uploads/2017/07/tifosi-valentino-rossi-tribuna-gialla-motogp-yamaha-2017-1200x900.jpg");
+  background-image: url("https://static.derapate.it/r/845X0/derapate.allaguida.it/img/circuit-de-catalunya-barcelona.jpg");
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
