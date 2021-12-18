@@ -177,8 +177,26 @@
   font-size: 40px;
   font-type: comic sans ms;
   }
+					
+					.timeline {
+							  position: relative;
+							  width: 100%;
+							  max-width: 1140px;
+							  margin: 0 auto;
+							  padding: 15px 0;
+							}
 
-	#clockdiv{
+							.timeline::after {
+							  content: '';
+							  position: absolute;
+							  width: 5px;
+							  background: white;
+							  top: 0;
+							  bottom: 0;
+							  left: 50%;
+							  margin-left: -1px;
+							}
+    					#clockdiv{
 						font-family: sans-serif;
 						color: #fff;
 						display: inline-block;
@@ -205,26 +223,7 @@
 						padding-top: 5px;
 						font-size: 16px;
 					}
-					
-					.timeline {
-							  position: relative;
-							  width: 100%;
-							  max-width: 1140px;
-							  margin: 0 auto;
-							  padding: 15px 0;
-							}
-
-							.timeline::after {
-							  content: '';
-							  position: absolute;
-							  width: 5px;
-							  background: white;
-							  top: 0;
-							  bottom: 0;
-							  left: 50%;
-							  margin-left: -1px;
-							}
-     </style>
+	  </style>
   </head>
 
 <body>
@@ -401,10 +400,6 @@ function initializeClock(id, endtime) {
 var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 					</script>
-				</div>
-		</div>
-	</div>
-	<!--*/end countdown-->
 		<br>
 		<br>
 		<br>
