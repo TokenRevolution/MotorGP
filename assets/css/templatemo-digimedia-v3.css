@@ -1935,7 +1935,7 @@ Footer Style
 */
 
 footer {
-  background-image: url("https://i0.wp.com/www.framgroup.it/wp-content/uploads/2019/08/sfondo-footer-home.png?fit=1170%2C357&ssl=1");
+  background-color: black;
   background-position: center center;
   background-repeat: no-repeat;
   margin-top: 130px;
