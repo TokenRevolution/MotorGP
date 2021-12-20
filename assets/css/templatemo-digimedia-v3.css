@@ -126,11 +126,10 @@ ul {
 }
 
 p {
- font-size: 15px;
+  font-size: 15px;
   line-height: 30px;
   font-weight: 300;
   color: #fff;
-  box-shadow: 15px 15px 15px;
   background-color: #000000;
   font-family:; 
   padding: 14px;
@@ -140,7 +139,7 @@ p {
 }
 
 img {
-  width: auto;
+  width: 100%;
   overflow: hidden;
 }
 
